@@ -1,0 +1,33 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Optional: Add margin-top for spacing */
+    margin-left: 37%;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar button[type="submit"] {
+    background-color: #53260f;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10px; /* Optional: Add margin between input and button */
+    transition: 0.3s ease;
+  }
+  
+  .search-bar button[type="submit"]:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: rgb(160, 160, 205);
+  }
+  
